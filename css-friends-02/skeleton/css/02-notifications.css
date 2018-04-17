@@ -1,0 +1,15 @@
+/* PHASE 2: Notifications */
+.notifications li  {
+  display: none;
+  position: absolute;
+
+  font-size: 14px;
+
+}
+
+.notifications > ul {
+  display: block;
+  padding: 10px 20px;
+}
+
+/* .notifications-list  */

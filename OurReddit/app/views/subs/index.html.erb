@@ -1,0 +1,7 @@
+<h1>All the sub(sandwiches)</h1>
+
+<a href="<%= new_sub_url %>">Create New Sub</a>
+
+<% @subs.each do |subtopic| %>
+  <a href="<%= sub_url(subtopic) %>"><%= subtopic.title %></a>
+<% end %>

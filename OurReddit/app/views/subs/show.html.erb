@@ -1,0 +1,9 @@
+<h1> Sub Topic: </h1>
+<%= @sub.title %>
+
+<a href="<%= new_post_url %>"> Make a New Post </a>
+
+
+<% @sub.posts.each do |post| %>
+<a href="<%= post_url(post) %>"><%= post.title %></a>
+<% end %>
